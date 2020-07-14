@@ -583,7 +583,8 @@ section {
 
 /* Until Here */
 
-.about .content .learn-more-btn {
+.about .content .learn-more-btn,
+.sign-up-button {
   background: #5fcf80;
   color: #fff;
   border-radius: 50px;
