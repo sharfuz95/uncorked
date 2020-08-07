@@ -23,6 +23,8 @@ a:hover {
   text-decoration: none;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -276,6 +278,7 @@ h6 {
   background: #5fcf80;
   color: #fff;
   border-radius: 50px;
+  border: 0;
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
@@ -463,6 +466,7 @@ h6 {
   margin-top: 30px;
   border: 2px solid #fff;
   color: #fff;
+  background: rgba(55, 66, 59, 0.00);
 }
 
 #hero .btn-get-started:hover {
