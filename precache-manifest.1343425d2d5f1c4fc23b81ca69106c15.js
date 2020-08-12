@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "590227307885cb7b44141464a2141fd7",
+    "revision": "ed9cb986c47bbd4ee6cbc77f12976a53",
     "url": "/uncorked/index.html"
   },
   {
-    "revision": "80b76ed8d607b1fac906",
+    "revision": "7981fd9a9f4bbac2a5f0",
     "url": "/uncorked/static/css/2.20aff2ed.chunk.css"
   },
   {
-    "revision": "30f4365cdc51a267757c",
+    "revision": "e754c891d3ddc9531489",
     "url": "/uncorked/static/css/main.1e343720.chunk.css"
   },
   {
-    "revision": "80b76ed8d607b1fac906",
-    "url": "/uncorked/static/js/2.794a2c9f.chunk.js"
+    "revision": "7981fd9a9f4bbac2a5f0",
+    "url": "/uncorked/static/js/2.37a98002.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/uncorked/static/js/2.794a2c9f.chunk.js.LICENSE.txt"
+    "url": "/uncorked/static/js/2.37a98002.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30f4365cdc51a267757c",
-    "url": "/uncorked/static/js/main.b6098725.chunk.js"
+    "revision": "e754c891d3ddc9531489",
+    "url": "/uncorked/static/js/main.c8732419.chunk.js"
   },
   {
     "revision": "b935e166de3fc949faa0",
