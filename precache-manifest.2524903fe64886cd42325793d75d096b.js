@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed9cb986c47bbd4ee6cbc77f12976a53",
+    "revision": "91ac0fbd5f870b8b934594b2b7069296",
     "url": "/uncorked/index.html"
   },
   {
-    "revision": "7981fd9a9f4bbac2a5f0",
+    "revision": "7d45ec6168e38653fa49",
     "url": "/uncorked/static/css/2.20aff2ed.chunk.css"
   },
   {
-    "revision": "e754c891d3ddc9531489",
+    "revision": "dab207b8be042bc1fc73",
     "url": "/uncorked/static/css/main.1e343720.chunk.css"
   },
   {
-    "revision": "7981fd9a9f4bbac2a5f0",
-    "url": "/uncorked/static/js/2.37a98002.chunk.js"
+    "revision": "7d45ec6168e38653fa49",
+    "url": "/uncorked/static/js/2.340cc848.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/uncorked/static/js/2.37a98002.chunk.js.LICENSE.txt"
+    "url": "/uncorked/static/js/2.340cc848.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e754c891d3ddc9531489",
-    "url": "/uncorked/static/js/main.c8732419.chunk.js"
+    "revision": "dab207b8be042bc1fc73",
+    "url": "/uncorked/static/js/main.442f1755.chunk.js"
   },
   {
     "revision": "b935e166de3fc949faa0",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "938e3a78fc43421340d0efbcbdfbda56",
     "url": "/uncorked/static/media/Rhythm.938e3a78.png"
+  },
+  {
+    "revision": "9dbab1e1c53b0bc65ae11c85c5cebd3a",
+    "url": "/uncorked/static/media/Rhythm.9dbab1e1.jpg"
   },
   {
     "revision": "27d0f130698058e79749442f433bd36e",
@@ -254,6 +258,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a56545778c10a0644aaa116ef32b1ca7",
     "url": "/uncorked/static/media/partner-6.a5654577.png"
+  },
+  {
+    "revision": "1404a751cabd26a71ad3a3891b69ffa6",
+    "url": "/uncorked/static/media/trainer-1.1404a751.jpg"
+  },
+  {
+    "revision": "197eba52a1a08cb6461c794171330b5f",
+    "url": "/uncorked/static/media/trainer-2.197eba52.jpg"
   },
   {
     "revision": "bce710a1b894c4bed64d260cd724aa9a",
