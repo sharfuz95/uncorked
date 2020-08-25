@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7a38483fd717d6cf6614275492cf010",
+    "revision": "7b0662a32e61a3387a842c7ee1432052",
     "url": "/index.html"
   },
   {
-    "revision": "4173a253f1f22799329a",
+    "revision": "261be3f994f4365967ea",
     "url": "/static/css/2.a1dd1f02.chunk.css"
   },
   {
-    "revision": "4981682dd8e058d6a67e",
-    "url": "/static/css/main.e0f88606.chunk.css"
+    "revision": "006dc506ba9e8cdde1f6",
+    "url": "/static/css/main.6f8b0a1a.chunk.css"
   },
   {
-    "revision": "4173a253f1f22799329a",
-    "url": "/static/js/2.477770ca.chunk.js"
+    "revision": "261be3f994f4365967ea",
+    "url": "/static/js/2.36a41d85.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/static/js/2.477770ca.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.36a41d85.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4981682dd8e058d6a67e",
-    "url": "/static/js/main.ad5c8f3e.chunk.js"
+    "revision": "006dc506ba9e8cdde1f6",
+    "url": "/static/js/main.6bf57342.chunk.js"
   },
   {
     "revision": "0307fa938c5c720c3ff2",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Lauren.c85ea331.png"
   },
   {
+    "revision": "38b171da38c6f67e2c23fa3842f9634e",
+    "url": "/static/media/MHadad.38b171da.png"
+  },
+  {
     "revision": "bf84de0ed037321a09c838fed5f0576f",
     "url": "/static/media/Maggie.bf84de0e.png"
   },
@@ -114,10 +118,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4494e57579dcb46830debd0bf43de78c",
     "url": "/static/media/Tolga.4494e575.png"
-  },
-  {
-    "revision": "ab3c5e349aae2d77abcc0c67ce1789fb",
-    "url": "/static/media/ZacAndIan.ab3c5e34.png"
   },
   {
     "revision": "207e8e3b4ec8e10f8ec0610f00888217",
@@ -248,10 +248,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/joeTestani.db9f3c67.png"
   },
   {
-    "revision": "5417560bfd0883ad4d0f2f532146163e",
-    "url": "/static/media/logo2.5417560b.png"
-  },
-  {
     "revision": "665092a74e451b84dacf0e81656b2da7",
     "url": "/static/media/partner-1.665092a7.png"
   },
@@ -286,5 +282,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bce710a1b894c4bed64d260cd724aa9a",
     "url": "/static/media/trainer-3.bce710a1.jpg"
+  },
+  {
+    "revision": "803de3ecdaa7b2e03c2bb378f6c81e52",
+    "url": "/static/media/uncorked logo main.803de3ec.png"
   }
 ]);
