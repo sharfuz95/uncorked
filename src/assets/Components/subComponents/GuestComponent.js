@@ -14,21 +14,29 @@ export default class GuestComponent extends Component {
     }
 
     componentWillMount() {
-        this.setState({ imgURL: this.props.imgURL });
+
+        var imageID = this.getImageID(this.props.imgURL);
+        this.setState({ imgURL: imageID });
         this.setState({ name: this.props.name });
         this.setState({ position: this.props.position });
         this.setState({ description: this.props.description });
         this.setState({ linkedInLink: this.props.linkedInLink });
+    }
 
-
+    getImageID(imageURL) {
+        var imageID = imageURL.substring(imageURL.indexOf('/d/') + 3, imageURL.indexOf('/view'));
+        return imageID;
     }
 
     render() {
         return (
             <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                 <div className="member">
-                    {console.log("imgURlHEre:" + this.state.imgURL)}
-                    <img src={require("../../img/trainers/" + this.state.imgURL)} className="img-fluid" alt="" />
+                    {/* {console.log("imgURlHEre:" + this.state.imgURL)} */}
+                    {/* <a href="https://drive.google.com/uc?export=view&id=1brof3phB20AX8EIsflZKUKWOkB582EpB"><img src="https://drive.google.com/uc?export=view&id=1brof3phB20AX8EIsflZKUKWOkB582EpB" /></a> */}
+
+                    <img src={"https://drive.google.com/uc?export=view&id=" + this.state.imgURL} alt="new" className="img-fluid" />
+                    {/* <img src={require("../../img/trainers/" + this.state.imgURL)} className="img-fluid" alt="" /> */}
                     <div className="member-content">
                         <h4>{this.state.name}</h4>
                         <span>{this.state.position}</span>
