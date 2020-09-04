@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.6f8b0a1a.chunk.css",
-    "main.js": "/static/js/main.d2a7c28d.chunk.js",
-    "main.js.map": "/static/js/main.d2a7c28d.chunk.js.map",
+    "main.js": "/static/js/main.997dea4d.chunk.js",
+    "main.js.map": "/static/js/main.997dea4d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.01051a28.js",
     "runtime-main.js.map": "/static/js/runtime-main.01051a28.js.map",
     "static/css/2.a1dd1f02.chunk.css": "/static/css/2.a1dd1f02.chunk.css",
     "static/js/2.b35cc6bf.chunk.js": "/static/js/2.b35cc6bf.chunk.js",
     "static/js/2.b35cc6bf.chunk.js.map": "/static/js/2.b35cc6bf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a04543e87122fa7da96045dd8c871a3a.js": "/precache-manifest.a04543e87122fa7da96045dd8c871a3a.js",
+    "precache-manifest.d7e41abc52f8fff6017e75610d93dde0.js": "/precache-manifest.d7e41abc52f8fff6017e75610d93dde0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a1dd1f02.chunk.css.map": "/static/css/2.a1dd1f02.chunk.css.map",
     "static/css/main.6f8b0a1a.chunk.css.map": "/static/css/main.6f8b0a1a.chunk.css.map",
@@ -30,6 +30,7 @@
     "static/media/Sharfuz.png": "/static/media/Sharfuz.71f599d8.png",
     "static/media/Sid.png": "/static/media/Sid.c0fb9a87.png",
     "static/media/aboutpic.png": "/static/media/aboutpic.6a9e12af.png",
+    "static/media/bhavish.png": "/static/media/bhavish.80a49a9a.png",
     "static/media/style.css": "/static/media/bkgrnd.7a769f39.png",
     "static/media/boxicons.min.css": "/static/media/boxicons.aeaf4ee6.woff2",
     "static/media/canvas.png": "/static/media/canvas.4c130147.png",
@@ -52,7 +53,6 @@
     "static/media/client-9.png": "/static/media/client-9.63e5b84f.png",
     "static/media/consulting.png": "/static/media/consulting.aa2896ae.png",
     "static/media/grace.png": "/static/media/grace.69daec21.png",
-    "static/media/gwen.png": "/static/media/gwen.e6caed03.png",
     "static/media/internship.png": "/static/media/internship.2b6eb27a.png",
     "static/media/partner-1.png": "/static/media/partner-1.665092a7.png",
     "static/media/partner-2.png": "/static/media/partner-2.d7c19379.png",
@@ -68,6 +68,6 @@
     "static/css/2.a1dd1f02.chunk.css",
     "static/js/2.b35cc6bf.chunk.js",
     "static/css/main.6f8b0a1a.chunk.css",
-    "static/js/main.d2a7c28d.chunk.js"
+    "static/js/main.997dea4d.chunk.js"
   ]
 }
