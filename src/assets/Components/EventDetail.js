@@ -9,29 +9,28 @@ export default class EventDetail extends Component {
                         <div className="col-md-6 d-flex align-items-stretch">
                             <div className="card">
                                 <div className="card-img">
-                                    <img src={require("../img/trainers/MHadad.png")} alt="..." />
+                                    <img src={require("../img/Jforbes.png")} alt="..." />
                                 </div>
                                 <div style={{ marginTop: "0.5%" }} className="card-body">
                                     <h5 className="card-title">
-                                        <a href="">Finding your best in college
+                                        <a href="">Changing the Way We Rent with Kopa YC
                   </a>
                                     </h5>
                                     <p className="font-italic text-center">
-                                        Aug 26th, Wednesday, 7PM
+                                        September 16th, Wednesday, 7PM
                 </p>
                                     <p className="card-text">
-                                        Marc is a senior at the University of Rochester majoring in Mechanical Engineering. He came to the US from Lebanon 3 years ago, and some of the first people he met here were Sharfuz (unfortunately) and Sidhant. He’s currently the VP of the Student Body, the outgoing president of Meliora Launchpad, and the Mechanical Team Lead for Engineering World Health. He’s heavily involved in the worlds of politics, entrepreneurship, and music. In his free time, Marc likes to play and record music.
-
+                                        Jack is a hard-working, dedicated, and passionate front-end developer, business development representative, and leader of Kopa. Jack studied business and engineering at the University of Waterloo and has worked at both startups and Fortune 500 companies including Google and Salesforce. He built the first version of Kopa after teaching himself how to code. Outside of work, you’ll find Jack partaking in nearly any outdoor activity, especially soccer, skiing, and hiking. He also enjoys playing the same six songs on the piano.
                 </p>
 
 
 
-                                    <p>Stream the session here on Aug 26th, Wednesday, 7PM</p>
+                                    <p>Stream the session here on September 16th, Wednesday, 7PM</p>
                                     <p>
-                                        <a href="https://www.youtube.com/watch?v=0Kp-GbKFRPk">View on YouTube</a>
+                                        <a href="https://www.youtube.com/watch?v=fK0I9cZsMOg">View on YouTube</a>
                                     </p>
                                     <p>
-                                        <a href="https://www.facebook.com/careersuncorked/videos/975341412932356/">View on Facebook</a>
+                                        <a href="https://www.facebook.com/careersuncorked/posts/160499229013848">View on Facebook</a>
                                     </p>
                                 </div>
                             </div>
