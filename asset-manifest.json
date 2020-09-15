@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.6f8b0a1a.chunk.css",
-    "main.js": "/static/js/main.997dea4d.chunk.js",
-    "main.js.map": "/static/js/main.997dea4d.chunk.js.map",
+    "main.js": "/static/js/main.00ab66c8.chunk.js",
+    "main.js.map": "/static/js/main.00ab66c8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.01051a28.js",
     "runtime-main.js.map": "/static/js/runtime-main.01051a28.js.map",
     "static/css/2.a1dd1f02.chunk.css": "/static/css/2.a1dd1f02.chunk.css",
     "static/js/2.b35cc6bf.chunk.js": "/static/js/2.b35cc6bf.chunk.js",
     "static/js/2.b35cc6bf.chunk.js.map": "/static/js/2.b35cc6bf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d7e41abc52f8fff6017e75610d93dde0.js": "/precache-manifest.d7e41abc52f8fff6017e75610d93dde0.js",
+    "precache-manifest.bb3cba8446fc9c9d58e93824a1385dd0.js": "/precache-manifest.bb3cba8446fc9c9d58e93824a1385dd0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a1dd1f02.chunk.css.map": "/static/css/2.a1dd1f02.chunk.css.map",
     "static/css/main.6f8b0a1a.chunk.css.map": "/static/css/main.6f8b0a1a.chunk.css.map",
@@ -21,6 +21,7 @@
     "static/media/Evan.png": "/static/media/Evan.8aebc389.png",
     "static/media/Evis.png": "/static/media/Evis.4c064166.png",
     "static/media/Harshul.jpeg": "/static/media/Harshul.c72fec13.jpeg",
+    "static/media/Jforbes.png": "/static/media/Jforbes.c2bd06c7.png",
     "static/media/Lauren.png": "/static/media/Lauren.c85ea331.png",
     "static/media/Maggie.png": "/static/media/Maggie.bf84de0e.png",
     "static/media/Michelle_pic.png": "/static/media/Michelle_pic.1ae94751.png",
@@ -30,7 +31,6 @@
     "static/media/Sharfuz.png": "/static/media/Sharfuz.71f599d8.png",
     "static/media/Sid.png": "/static/media/Sid.c0fb9a87.png",
     "static/media/aboutpic.png": "/static/media/aboutpic.6a9e12af.png",
-    "static/media/bhavish.png": "/static/media/bhavish.80a49a9a.png",
     "static/media/style.css": "/static/media/bkgrnd.7a769f39.png",
     "static/media/boxicons.min.css": "/static/media/boxicons.aeaf4ee6.woff2",
     "static/media/canvas.png": "/static/media/canvas.4c130147.png",
@@ -68,6 +68,6 @@
     "static/css/2.a1dd1f02.chunk.css",
     "static/js/2.b35cc6bf.chunk.js",
     "static/css/main.6f8b0a1a.chunk.css",
-    "static/js/main.997dea4d.chunk.js"
+    "static/js/main.00ab66c8.chunk.js"
   ]
 }
