@@ -8,7 +8,7 @@ export default class Client extends Component {
                     <div className="row">
                         <div className="section-title">
                             <h2>clients Interviews</h2>
-                            <p>clientss Have Interviewed With</p>
+                            <p>clients Have Interviewed With</p>
                         </div>
                         <br />
 
