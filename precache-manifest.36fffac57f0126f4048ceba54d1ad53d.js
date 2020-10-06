@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1feefcf00b89b502098c6408f961ebb6",
+    "revision": "36165785301c4ed9ead9d5c92fd249ae",
     "url": "/index.html"
   },
   {
-    "revision": "7480ef63d179b78edc28",
+    "revision": "9a8846bf1f4270c9e94b",
     "url": "/static/css/2.a1dd1f02.chunk.css"
   },
   {
-    "revision": "5540ab0c3a1ca4717bbe",
+    "revision": "658a9ddbad67e9d5c278",
     "url": "/static/css/main.6f8b0a1a.chunk.css"
   },
   {
-    "revision": "7480ef63d179b78edc28",
-    "url": "/static/js/2.248bd1c4.chunk.js"
+    "revision": "9a8846bf1f4270c9e94b",
+    "url": "/static/js/2.5007ff8d.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/static/js/2.248bd1c4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5007ff8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5540ab0c3a1ca4717bbe",
-    "url": "/static/js/main.a92468cf.chunk.js"
+    "revision": "658a9ddbad67e9d5c278",
+    "url": "/static/js/main.a12e2dd2.chunk.js"
   },
   {
     "revision": "0307fa938c5c720c3ff2",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c72fec13e3cb71653a08fde5cde14a52",
     "url": "/static/media/Harshul.c72fec13.jpeg"
+  },
+  {
+    "revision": "c2bd06c744b04f751b37a3882f0ace0d",
+    "url": "/static/media/Jforbes.c2bd06c7.png"
   },
   {
     "revision": "c85ea331201b8593a6703d212bc1b931",
@@ -92,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aboutpic.6a9e12af.png"
   },
   {
-    "revision": "b666f5042e4c39c6661c93d8776a8976",
-    "url": "/static/media/amping.b666f504.png"
+    "revision": "54e9c4b78d6b33590d059ebac3a6b62c",
+    "url": "/static/media/amping.54e9c4b7.png"
   },
   {
     "revision": "7a769f39879a682ce0b67ea532f945a3",
@@ -200,8 +204,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/deepdive.4472e768.png"
   },
   {
-    "revision": "c9d213e24bccb54b0db50bef59e4e4c5",
-    "url": "/static/media/evanBasta.c9d213e2.png"
+    "revision": "6e4c86f39f0b3bd8652d539bac4c1a7d",
+    "url": "/static/media/evanBasta.6e4c86f3.png"
   },
   {
     "revision": "69daec21413cec31b9b4cfa62378123f",
@@ -234,10 +238,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a56545778c10a0644aaa116ef32b1ca7",
     "url": "/static/media/partner-6.a5654577.png"
-  },
-  {
-    "revision": "b6c556921651d6e335c0019390be202d",
-    "url": "/static/media/sari.b6c55692.png"
   },
   {
     "revision": "bce710a1b894c4bed64d260cd724aa9a",
