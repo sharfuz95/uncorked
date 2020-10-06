@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.6f8b0a1a.chunk.css",
-    "main.js": "/static/js/main.a12e2dd2.chunk.js",
-    "main.js.map": "/static/js/main.a12e2dd2.chunk.js.map",
+    "main.js": "/static/js/main.258258bb.chunk.js",
+    "main.js.map": "/static/js/main.258258bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.01051a28.js",
     "runtime-main.js.map": "/static/js/runtime-main.01051a28.js.map",
     "static/css/2.a1dd1f02.chunk.css": "/static/css/2.a1dd1f02.chunk.css",
-    "static/js/2.5007ff8d.chunk.js": "/static/js/2.5007ff8d.chunk.js",
-    "static/js/2.5007ff8d.chunk.js.map": "/static/js/2.5007ff8d.chunk.js.map",
+    "static/js/2.95a61f45.chunk.js": "/static/js/2.95a61f45.chunk.js",
+    "static/js/2.95a61f45.chunk.js.map": "/static/js/2.95a61f45.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.36fffac57f0126f4048ceba54d1ad53d.js": "/precache-manifest.36fffac57f0126f4048ceba54d1ad53d.js",
+    "precache-manifest.69e186f033d6636e8ab655ca74e5b1a8.js": "/precache-manifest.69e186f033d6636e8ab655ca74e5b1a8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a1dd1f02.chunk.css.map": "/static/css/2.a1dd1f02.chunk.css.map",
     "static/css/main.6f8b0a1a.chunk.css.map": "/static/css/main.6f8b0a1a.chunk.css.map",
-    "static/js/2.5007ff8d.chunk.js.LICENSE.txt": "/static/js/2.5007ff8d.chunk.js.LICENSE.txt",
+    "static/js/2.95a61f45.chunk.js.LICENSE.txt": "/static/js/2.95a61f45.chunk.js.LICENSE.txt",
     "static/media/Aliye.png": "/static/media/Aliye.a6599541.png",
     "static/media/Aman.png": "/static/media/Aman.3603b36a.png",
     "static/media/Beatriz.png": "/static/media/Beatriz.d3aefa6a.png",
@@ -63,14 +63,15 @@
     "static/media/partner-4.png": "/static/media/partner-4.c7b80ec4.png",
     "static/media/partner-5.png": "/static/media/partner-5.576304eb.png",
     "static/media/partner-6.png": "/static/media/partner-6.a5654577.png",
+    "static/media/podcast.jpg": "/static/media/podcast.67d76930.jpg",
     "static/media/trainer-3.jpg": "/static/media/trainer-3.bce710a1.jpg",
     "static/media/uncorked logo main.png": "/static/media/uncorked logo main.803de3ec.png"
   },
   "entrypoints": [
     "static/js/runtime-main.01051a28.js",
     "static/css/2.a1dd1f02.chunk.css",
-    "static/js/2.5007ff8d.chunk.js",
+    "static/js/2.95a61f45.chunk.js",
     "static/css/main.6f8b0a1a.chunk.css",
-    "static/js/main.a12e2dd2.chunk.js"
+    "static/js/main.258258bb.chunk.js"
   ]
 }
