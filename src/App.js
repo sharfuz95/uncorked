@@ -24,11 +24,19 @@ import 'aos/dist/aos.css';
 import Blogs from './assets/Components/Blogs';
 import BehindTheCurtains from './assets/Components/BehindTheCurtains';
 import GuestComponent from './assets/Components/subComponents/GuestComponent';
+import Podcast from './assets/Components/Podcast';
+import ReactGa from 'react-ga';
 
 
 
 class App extends React.Component {
 
+
+  constructor() {
+    super();
+    ReactGa.initialize("UA-169178602-1");
+    ReactGa.pageview(window.location.pathname);
+  }
 
   render() {
     return (
@@ -45,6 +53,7 @@ class App extends React.Component {
           <Route exact path='/events' component={Events} />
           <Route exact path='/guests' component={Guests} />
           <Route exact path='/blogs' component={Blogs} />
+          <Route exact path='/podcast' component={Podcast} />
           <Route exact path='/behindthecurtains' component={BehindTheCurtains} />
           <Footer />
         </div>
