@@ -190,6 +190,27 @@ export default class BehindTheCurtainsList extends Component {
 
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
+                                <img src={require("..//img/trainers/Daniel.png")} className="img-fluid" alt="" />
+                                <div className="member-content">
+                                    <h4>Daniel Munoz</h4>
+                                    <span>Podcast Host</span>
+                                    <p>
+                                        Daniel is a Computer Science major at the University of Rochester graduating in 2021.
+                                        At the university he is the president of the Society of Hispanic Professional Engineers (SHPE)
+                                        club as well as a tutor. He was born and raised in Mexico, the cards that life dealt him led him
+                                        to only be raised by his grandparents from a very young age. However, resilience and a growth mindset
+                                        have aided him in conquering the challenges that life throws around and develop a mindset to succeed in
+                                        the face of adversity. He’s been involved with a student led startup since his first year, research with
+                                        the medical center, and has interned as a Software Engineer for Autodesk.
+                                        In his free time he enjoys to go on long bike rides and listen to audiobooks or
+                                        practice different forms of dancing such as shuffling, electroswing or breakdancing!
+                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div className="member">
                                 <img src={require("..//img/trainers/trainer-3.jpg")} className="img-fluid" alt="" />
                                 <div className="member-content">
                                     <h4>William Anderson</h4>
