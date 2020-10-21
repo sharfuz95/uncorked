@@ -32,11 +32,7 @@ export default class GuestComponent extends Component {
         return (
             <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                 <div className="member">
-                    {/* {console.log("imgURlHEre:" + this.state.imgURL)} */}
-                    {/* <a href="https://drive.google.com/uc?export=view&id=1brof3phB20AX8EIsflZKUKWOkB582EpB"><img src="https://drive.google.com/uc?export=view&id=1brof3phB20AX8EIsflZKUKWOkB582EpB" /></a> */}
-
                     <img src={"https://drive.google.com/uc?export=view&id=" + this.state.imgURL} alt="new" className="img-fluid" />
-                    {/* <img src={require("../../img/trainers/" + this.state.imgURL)} className="img-fluid" alt="" /> */}
                     <div className="member-content">
                         <h4>{this.state.name}</h4>
                         <span>{this.state.position}</span>
