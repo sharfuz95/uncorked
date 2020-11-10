@@ -1610,3 +1610,17 @@ section {
 .nav-menu .selected{
   color:#F79226;
 }
+
+
+/* Podcast */
+.mainImage{
+  width: 50%;
+  display: block;
+  margin: 16px  auto;
+}
+
+.podcast-description{
+  text-align: center;
+  padding: 0 10%;
+  font-size: 1.25rem;
+}
