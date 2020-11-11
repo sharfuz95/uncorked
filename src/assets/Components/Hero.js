@@ -13,7 +13,7 @@ export default class Hero extends Component {
                         growth
                 </h2>
                     <button type="button" className="btn-get-started" data-toggle="modal" data-target="#getStarted">
-                        Tune In
+                        Join Us
                 </button>
                 </div>
             </section>

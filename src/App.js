@@ -9,7 +9,7 @@ import SubscriptionPage from './assets/Components/SubscriptionPage'
 import Main from './assets/Components/Main';
 import Footer from './assets/Components/Footer';
 
-import Stories from './assets/Components/Stories';
+import Stories from './assets/Components/Stories/Stories';
 import Events from './assets/Components/Events';
 import Guests from './assets/Components/Guests';
 
@@ -50,6 +50,7 @@ class App extends React.Component {
           <Route exact path='/' component={Hero} />
           <Route exact path='/' component={Main} />
           <Route exact path='/stories' component={Stories} />
+          {/* <Route exact path='/stories' component={StoriesFromYoutube} /> */}
           <Route exact path='/events' component={Events} />
           <Route exact path='/guests' component={Guests} />
           <Route exact path='/blogs' component={Blogs} />

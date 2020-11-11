@@ -14,7 +14,6 @@ export default class GuestComponent extends Component {
     }
 
     componentWillMount() {
-
         var imageID = this.getImageID(this.props.imgURL);
         this.setState({ imgURL: imageID });
         this.setState({ name: this.props.name });

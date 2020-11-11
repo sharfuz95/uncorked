@@ -17,13 +17,14 @@ export default class Header extends Component {
                 <div className="collapse nav-menu navbar-collapse" id="navbarSupportedContent">
                     <li><NavLink to="/" exact activeClassName="selected">Let's Start</NavLink></li>
                     <li><NavLink to="/stories" exact activeClassName="selected">Stories</NavLink></li>
+                    <li><NavLink to="/podcast" exact activeClassName="selected">Podcast</NavLink></li>
                     <li><NavLink to="/events" exact activeClassName="selected">Events</NavLink></li>
                     <li><NavLink to="/guests" exact activeClassName="selected">Guests</NavLink></li>
                     <li><NavLink to="/blogs" exact activeClassName="selected">Blogs</NavLink></li>
                     <li><NavLink to="/behindthecurtains" exact activeClassName="selected">Behind the Curtains</NavLink></li>
 
                     <button type="button" className="get-started-btn" data-toggle="modal" data-target="#getStarted">
-                        Tune In
+                        Join Us
             </button>
                 </div>
 

@@ -591,6 +591,8 @@ section {
   height: 100%;
 }
 
+
+
 /* Until Here */
 
 .about .content .learn-more-btn,
@@ -1613,6 +1615,10 @@ section {
 
 
 /* Podcast */
+
+.podcastMain .get-started-btn{
+  margin-top: 16px;
+}
 .mainImage{
   width: 50%;
   display: block;
@@ -1623,4 +1629,20 @@ section {
   text-align: center;
   padding: 0 10%;
   font-size: 1.25rem;
+}
+
+.podcastList{
+  padding: 16px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+/* Stories */
+.storiesFromYoutube{
+  margin: 64px auto;
+}
+
+.eachVideo{
+  padding: 8px 0;
 }

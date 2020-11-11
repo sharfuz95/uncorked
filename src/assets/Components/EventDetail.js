@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import FetchService from '../helper/FetchService'
-import EventComponent from './subComponents/EventComponent';
 
 export default class EventDetail extends Component {
 
