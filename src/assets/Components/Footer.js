@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link, NavLink } from 'react-router-dom';
+
 
 export default class Footer extends Component {
     render() {
@@ -7,23 +9,23 @@ export default class Footer extends Component {
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-4 col-md-6 footer-contact">
+                            <div className="col-lg-6 col-md-6 footer-contact">
                                 <h3>Uncorked</h3>
                                 <p>
                                     <strong>Email:</strong> careersuncorked@gmail.com <br />
                                 </p>
                             </div>
 
-                            <div className="col-lg-4 col-md-6 footer-links">
+                            {/* <div className="col-lg-4 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
                                     <li>
                                         <i className="bx bx-chevron-right"></i>
-                                        <a href="/">Home</a>
+                                        <NavLink to="/" exact>Home</NavLink>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right"></i>
-                                        <a href="/stories">Our Stories</a>
+                                        <NavLink to="/stories" exact>Our Stories</NavLink>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right"></i>
@@ -38,11 +40,11 @@ export default class Footer extends Component {
                                         <a href="/guests">Our Partners</a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
 
 
 
-                            <div className="col-lg-4 col-md-6 footer-newsletter" id="mc_embed_signup">
+                            <div className="col-lg-6 col-md-6 footer-newsletter" id="mc_embed_signup">
                                 <h4>Join Our Newsletter</h4>
                                 <p>
                                     Sign up for our weekly insightful short reads from our partners!

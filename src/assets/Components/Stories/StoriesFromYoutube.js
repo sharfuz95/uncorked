@@ -16,7 +16,7 @@ export default class StoriesFromYoutube extends Component {
 
     componentDidMount() {
         console.log("Mounted");
-        FetchService.GET("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLIy7-i_9rAyQ9teMuV1dJHWuVcsW5y39o&key=AIzaSyD2gBCggKBW5r6XkCzCa4dLoQuL7mnB9Ok")
+        FetchService.GET("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLIy7-i_9rAyQ9teMuV1dJHWuVcsW5y39o&key=AIzaSyBpLHm-j4f9C1ZFQcTCZ_qOAwGy3TDS12U")
             .then((res) => {
                 // console.log(res['feed']['entry'][0]['content']['$t']);
                 // this.setState({ responseObject: res['feed']['entry'] });
@@ -56,7 +56,7 @@ export default class StoriesFromYoutube extends Component {
 
     render() {
         return (
-            <div className="container storiesFromYoutube" data-aos="fade-up">
+            <div className="container storiesFromYoutube">
                 <div className="row" >
                     {!this.state.loading &&
                         <>
