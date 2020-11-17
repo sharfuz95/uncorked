@@ -16,6 +16,8 @@ import Guests from './assets/Components/Guests';
 
 
 import './assets/css/style.css';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'boxicons/css/boxicons.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -37,6 +39,8 @@ class App extends React.Component {
     ReactGa.initialize("UA-169178602-1");
     ReactGa.pageview(window.location.pathname);
   }
+
+
 
   render() {
     return (

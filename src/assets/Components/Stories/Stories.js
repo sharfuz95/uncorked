@@ -7,7 +7,13 @@ import StoriesContent from './StoriesContent'
 import Testimonials from '../Testimonials'
 import StoriesFromYoutube from './StoriesFromYoutube'
 
+
+import $ from 'jquery';
+
+
 export default class Stories extends Component {
+
+
     render() {
         return (
             <div>

@@ -16,7 +16,8 @@ export default class StoriesFromYoutube extends Component {
 
     componentDidMount() {
         console.log("Mounted");
-        FetchService.GET("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLIy7-i_9rAyQ9teMuV1dJHWuVcsW5y39o&key=AIzaSyBpLHm-j4f9C1ZFQcTCZ_qOAwGy3TDS12U")
+        var apiKey = process.env.REACT_APP_API_KEY;
+        FetchService.GET("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLIy7-i_9rAyQ9teMuV1dJHWuVcsW5y39o&key=" + apiKey)
             .then((res) => {
                 // console.log(res['feed']['entry'][0]['content']['$t']);
                 // this.setState({ responseObject: res['feed']['entry'] });

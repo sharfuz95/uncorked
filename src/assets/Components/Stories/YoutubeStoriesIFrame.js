@@ -16,13 +16,13 @@ export default class StoriesIFrame extends Component {
     }
     render() {
         return (
-            <div className="modal fade" id={this.state.videoURL} tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            <div className="modal fade videoModal" id={this.state.videoURL} tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
                 aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div className="modal-content">
                         <div className="modal-body">
                             <div className="responsive">
-                                <iframe width="560" height="315" src={this.state.sourceURL} frameBorder="0"
+                                <iframe width="560" height="315" className="iframeWithVideo" src={this.state.sourceURL} frameBorder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen title="1"></iframe>
                             </div>

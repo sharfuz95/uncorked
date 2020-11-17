@@ -17,7 +17,17 @@
                 $(this).remove();
             });
         }
+
+        $('.videoModal').on('hidden.bs.modal', function (e) {
+            // $('.iframeWithVideo').trigger('pause');
+            $('.iframeWithVideo').each(function () {
+                var el_src = $(this).attr("src");
+                $(this).attr("src", el_src);
+            });
+            console.log("Okay")
+        })
     });
+
 
 
 
