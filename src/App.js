@@ -3,31 +3,13 @@ import React from 'react';
 import { BrowserRouter as Router, withRouter, Route, HashRouter } from 'react-router-dom';
 
 
-import Header from './assets/Components/Header';
-import Hero from './assets/Components/Hero';
-import SubscriptionPage from './assets/Components/SubscriptionPage'
-import Main from './assets/Components/Main';
-import Footer from './assets/Components/Footer';
-
-import Stories from './assets/Components/Stories/Stories';
-import Events from './assets/Components/Events';
-import Guests from './assets/Components/Guests';
-
-
-
-import './assets/css/style.css';
-
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'boxicons/css/boxicons.min.css';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
-import 'aos/dist/aos.css';
-import Blogs from './assets/Components/Blogs';
-import BehindTheCurtains from './assets/Components/BehindTheCurtains';
-import GuestComponent from './assets/Components/subComponents/GuestComponent';
-import Podcast from './assets/Components/Podcast';
+// import './assets/css/style.css';
 import ReactGa from 'react-ga';
+
+
+// sub components
+import HomePage from './assets/Components/HomePage';
+import SimplePaper from './assets/Components/SimplePaper';
 
 
 
@@ -49,18 +31,7 @@ class App extends React.Component {
 
       <HashRouter basename='/'>
         <div>
-          <Header />
-          <SubscriptionPage />
-          <Route exact path='/' component={Hero} />
-          <Route exact path='/' component={Main} />
-          <Route exact path='/stories' component={Stories} />
-          {/* <Route exact path='/stories' component={StoriesFromYoutube} /> */}
-          <Route exact path='/events' component={Events} />
-          <Route exact path='/guests' component={Guests} />
-          <Route exact path='/blogs' component={Blogs} />
-          <Route exact path='/podcast' component={Podcast} />
-          <Route exact path='/behindthecurtains' component={BehindTheCurtains} />
-          <Footer />
+          <Route exact path='/' component={HomePage} />
         </div>
       </HashRouter>
 
