@@ -9,7 +9,6 @@ import ReactGa from 'react-ga';
 
 // sub components
 import HomePage from './assets/Components/HomePage';
-import SimplePaper from './assets/Components/SimplePaper';
 
 
 
