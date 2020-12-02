@@ -14,6 +14,8 @@ export default class MainBackDrop extends Component {
                 <div className="explanation">SIGN UP TO OUR MAILING LIST TO RECEIVE A REMINDER FOR OUR
                 <br />
                 UPCOMING EVENTS</div>
+
+                <button className="sign-up-button">Sign Up</button>
                 
                 {/* The following is a hacky solution to maintain the size  */}
                 {/* <img src={backgroundImage} style={{visibility: 'hidden'}} /> */}

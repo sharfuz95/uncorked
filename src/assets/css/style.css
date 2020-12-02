@@ -10,12 +10,16 @@
     background-size: cover;
     text-align: center;
     min-height: 85vh;
+
+    position:relative;
+    
 }
 
 .main-back-drop .main-title{
-    font-size: 7rem;
+    font-size: 100px;
     font-weight: bold;
     padding-top: 5%;
+    position: relative;
 }
 
 .main-back-drop .sub-header{
@@ -26,6 +30,18 @@
 .main-back-drop .explanation{
     margin-top: 32px;
     font-size: 1.5rem;
+}
+
+.main-back-drop .sign-up-button{
+    padding: 2% 4%;
+    border:0;
+    border-radius: 50px;
+    font-size: x-large;
+    background-color: rgba(253, 253, 253, 0.755);
+    position: absolute;
+    bottom:64px;
+    left:44%;
+    
 }
 
 .hangout{
