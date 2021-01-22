@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import {Paper} from '@material-ui/core';
+import {Paper,Grid} from '@material-ui/core';
 import MainBackDrop from './HomepageComponents/MainBackDrop';
 
 
@@ -11,6 +11,7 @@ import Blogs from './HomepageComponents/Blogs';
 import Podcast from './HomepageComponents/Podcast';
 import LinkedIn from './HomepageComponents/LinkedIn';
 import SignUp from './HomepageComponents/SignUp';
+import About from './HomepageComponents/About';
 
 
 export default class HomePage extends Component {
@@ -18,24 +19,54 @@ export default class HomePage extends Component {
         return (
             <div>
 
-                <Paper className="homepage-card">
-                    <MainBackDrop/>
-                </Paper>
-                <Paper className="homepage-card">
-                    <Hangouts/>
-                </Paper>
-                <Paper className="homepage-card">
-                    <Blogs />
-                </Paper>
-                <Paper className="homepage-card">
-                    <Podcast />
-                </Paper>
-                <Paper className="homepage-card">
-                    <LinkedIn />
-                </Paper>
-                <Paper className="homepage-card">
-                    <SignUp />
-                </Paper>
+                <Grid
+                container
+                direction="column"
+                justify="center"
+                alignItems="stretch"
+                spacing={2}
+                >
+                    <Grid item xs = {12}>
+                        <Paper className="homepage-card">
+                            <MainBackDrop/>
+                        </Paper>
+                    </Grid>
+                    <Grid item xs = {12}>
+                        <Paper className="homepage-card">
+                            <Hangouts/>
+                        </Paper>
+                    </Grid>
+                    <Grid item xs = {12}>
+                        <Paper className="homepage-card">
+                            <Blogs />
+                        </Paper>
+                    </Grid>
+                    <Grid item xs = {12}>
+                        <Paper className="homepage-card">
+                            <Podcast />
+                        </Paper>
+                    </Grid>
+                    <Grid item xs = {12}>
+                        <Paper className="homepage-card">
+                            <LinkedIn />
+                        </Paper>
+                    </Grid>
+                    <Grid item xs = {12}>
+                        <Paper className="homepage-card">
+                            <SignUp />
+                        </Paper>
+                    </Grid>
+                    <Grid item xs = {12}>
+                        <Paper className="homepage-card">
+                            <About />
+                        </Paper>
+                    </Grid>
+
+                </Grid>
+               
+               
+                  
+               
               
             </div>
         )
