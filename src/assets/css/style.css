@@ -369,6 +369,36 @@ body{
 @media screen and (max-width: 600px) {
 
 
+
+    /* Common things */
+    .main-title{
+        font-size: 50px;
+        padding-top: 2%;
+        position: relative;
+    }
+
+    .sub-header{
+        letter-spacing: 4px;
+        font-size: 15px;
+        padding-top: 16px;
+    }
+
+    .explanation{
+        padding-top: 16px;
+        font-size: 13px;
+    }
+
+    .view-button{
+        padding:10px 0;
+        width: 200px;
+        border:0;
+        border-radius: 50px;
+        font-size: large;
+        background-color: rgb(253, 253, 253);
+        margin-top: 16px;
+        
+    }
+
     /* Main back drop */
     .main-back-drop{
         background: url('../img/mainpage-back-drop.png') no-repeat  center ;
@@ -390,10 +420,39 @@ body{
     }
 
     .main-back-drop .sign-up-button{
-       
         left:35%;
-        
     }
 
     /* End of Main back drop */
+
+    /* Hangout Styling */
+    .hangout{
+        background-color:#FAC73F;
+        background-size: 800px;
+        background-position: 50% 100%;
+    }
+
+
+
+    .hangout .co-host-picture{
+        width: 312px;
+        height: 312px;
+    }
+
+    .hangout .co-host-name{
+        font-size: x-large;
+    }
+
+    .hangout .co-host-info{
+        margin-top: 128px;
+    }
+
+
+
+    .hangout .white-logo{
+        background-position: 50% 50%;
+        width: 256px;
+    }
+
+
   }

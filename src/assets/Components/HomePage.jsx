@@ -31,12 +31,12 @@ export default class HomePage extends Component {
                             <MainBackDrop/>
                         </Paper>
                     </Grid>
-                    <Grid item xs = {12}>
+                    {/* <Grid item xs = {12}>
                         <Paper className="homepage-card">
                             <Hangouts/>
                         </Paper>
-                    </Grid>
-                    <Grid item xs = {12}>
+                    </Grid> */}
+                     {/*<Grid item xs = {12}>
                         <Paper className="homepage-card">
                             <Blogs />
                         </Paper>
@@ -60,7 +60,7 @@ export default class HomePage extends Component {
                         <Paper className="homepage-card">
                             <About />
                         </Paper>
-                    </Grid>
+                    </Grid> */}
 
                 </Grid>
                

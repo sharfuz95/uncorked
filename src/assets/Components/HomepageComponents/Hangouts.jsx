@@ -16,7 +16,7 @@ export default class Hangouts extends Component {
 
             <div className = "hangout">
                  <Grid container direction="row" justify="center" alignItems="center">
-                    <Grid item xs={6}>
+                    <Grid item xs={12} md={6}>
                         <div className="main-title">Careers Uncorked Hangouts</div>
                         <div className="sub-header">Our Livestream</div>
                         <div className="explanation"><p>Join our hangouts where we talk about their struggles, barriers and experiences individuals 
@@ -26,13 +26,13 @@ export default class Hangouts extends Component {
                     
                         </div>
                         <Grid container direction="row" justify="flex-start">
-                            <Grid item xs={2}>
+                            <Grid item md={2}>
                                 <img src={LinkedInWhiteLogo} alt="linkedin"/> 
                             </Grid>
-                            <Grid item xs={2}>
+                            <Grid item md={2}>
                                 <img src={YoutubeWhiteLogo} alt="youtube" /> 
                             </Grid>
-                            <Grid item xs={2}>
+                            <Grid item md={2}>
                                 <img src={FacebookWhiteLogo} alt="facebook" /> 
                             </Grid>
                         </Grid>
